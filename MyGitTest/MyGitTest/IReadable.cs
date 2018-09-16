@@ -8,6 +8,6 @@ namespace MyGitTest
 {
     internal interface IReadable
     {
-        void Read(string Path);
+        List<IReadable> Read(string Path);
     }
 }
