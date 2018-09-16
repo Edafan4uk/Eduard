@@ -10,7 +10,11 @@ namespace MyGitTest
     {
         static void Main(string[] args)
         {
-
+            Tasks.ReadFromFile();
+            Console.WriteLine();
+            Tasks.PrintOnlyGrn();
+            Console.WriteLine();
+            Tasks.UsingLINQGroupBy();
         }
     }
 }

@@ -8,6 +8,10 @@ namespace MyGitTest
 {
     class Currency:IReadable
     {        
+        public Currency()
+        {
+
+        }
         public Currency(int am,string name)
         {
             CurrencyName = name;
@@ -24,6 +28,7 @@ namespace MyGitTest
                 List<IReadable> list = new List<IReadable>();
                 using (StreamReader sr = File.OpenText(path))
                 {
+                    
                     string temp = string.Empty;
                     string[] tempArr;
                     while(!sr.EndOfStream)
