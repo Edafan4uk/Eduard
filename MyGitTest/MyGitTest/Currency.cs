@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyGitTest
 {
-    class Currency
+    class Currency:IReadable
     {
+        public void Read(string path)
     }
 }

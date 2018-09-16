@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyGitTest
 {
-    interface IReadable
+    internal interface IReadable
     {
+        void Read(string Path);
     }
 }
